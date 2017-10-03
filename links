@@ -1,0 +1,91 @@
+https://www.sitepoint.com/apache-mod_rewrite-examples-2/ 		apache rewrite rules
+
+http://career.guru99.com/top-100-networking-interview-questions-answers/         interview for network 
+
+https://kerneltalks.com/networking/basics-of-iptables-linux-firewall/      iptables
+
+https://arkit.co.in/debug-shell-script-easily-identify-errors/  shell 
+
+http://www.careerride.com/Linux-Interview-Questions.aspx  linux intervew   remaiing 
+
+https://www.linuxtechi.com/40-linux-interview-questions-for-freshers-part2/   qstion
+
+https://intellipaat.com/interview-question/linux-interview-questions/     qestion
+
+https://www.arclab.com/en/kb/email/smtp-response-codes-error-messages.html    smtp error code
+
+http://www.thegeekstuff.com/2010/01/debootstrap-minimal-debian-ubuntu-installation/ 
+https://debian-administration.org/article/426/Installing_new_Debian_systems_with_debootstrap    debootstrap
+
+http://www.thegeekstuff.com/2011/02/Linux-boot-process/  booting process
+
+root@ubuntu-dev:~# dd if=/dev/sda of=mbr bs=512 count=1       copy mbr
+
+Find ./ -name “*.c” | xargs grep –i “apple”   			
+
+$ sed 's/scarlet/red/g;s/ruby/red/g;s/puce/red/g'   sed replace word to another
+
+$ awk -F':' '{ print $1 }' /etc/group
+
+grep -iworI mac config.boot | wc -l      word count in file 
+
+# ip route add blackhole 192.168.0.1/32     block ip
+
+
+https://linoxide.com/linux-how-to/linux-interview-questions-answers/
+
+https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/  git hub
+
+
+
+https://www.howtoforge.com/tutorial/ubuntu-nagios/  nagiosadmin@123
+
+https://tecadmin.net/install-nagios-monitoring-server-on-ubuntu/#
+
+http://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/install-nagios-4-1-1-ubuntu-16-04.html
+
+http://news.jpy.com/kbase/support-articles/2015/9/7/calculating-network-data-transfer-speeds  netwrk
+
+
+https://www.tecmint.com/create-raid1-in-linux/  soft raid
+
+https://www.howtoforge.com/tutorial/how-to-set-up-nginx-high-availability-with-pacemaker-corosync-and-crmsh-on-ubuntu-1604/  nginx cluster
+
+http://www.thegeekstuff.com/2011/07/install-nginx-from-source/
+
+http://www.thegeekstuff.com/2011/05/ext2-ext3-ext4/  ext2 ext3
+
+
+https://access.redhat.com/documentation/en-US/Red_Hat_Storage/2.1/html/Administration_Guide/Expanding_Volumes.html   glusterfs
+
+https://www.kernel.org/doc/html/v4.11/process/applying-patches.html  patches tool
+
+https://www.maketecheasier.com/configure-pxe-server-ubuntu/  pxe   preboot exection envirmnt
+
+https://www.tecmint.com/systemd-replaces-init-in-linux/        init vs systemd
+
+https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units   systemctl
+
+https://www.tecmint.com/linux-iptables-firewall-rules-examples-commands/   iptables
+
+http://mixeduperic.com/ubuntu/seven-easy-steps-to-setting-up-an-interal-dns-server-on-ubuntu.html   bind9
+
+https://www.ostechnix.com/install-and-configure-dns-server-ubuntu-16-04-lts/  dns
+
+
+https://www.digitalocean.com/community/tutorials/how-to-use-apache-as-a-reverse-proxy-with-mod_proxy-on-centos-7  resvers proxy
+
+https://devops.profitbricks.com/tutorials/configure-apache-as-a-reverse-proxy-using-mod_proxy-on-ubuntu/
+http://www.computernetworkingnotes.com/network-administration/how-to-configure-apache-server-in-linux.html
+https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension
+
+
+https://www.tecmint.com/cman-multi-node-cluster-setup-in-linux/   cluster
+
+
+http://tutorialforlinux.com/2014/04/19/how-to-install-jboss-7-x-on-ubuntu-14-04-trusty-32-64bit-desktop-easy-visual-guide/
+
+http://linuxpitstop.com/install-jboss-application-server-wildfly-on-ubuntu-linux-15-04/   jboss
+
+
+https://rvdb.wordpress.com/2012/04/26/reverse-proxying-tomcat-webapps-behind-apache/   apache to tomcat
