@@ -1,0 +1,80 @@
+
+
+==========================================
+
+CD/CI
+
+==========================================
+
+Five stages== >>
+
+Devlop Inherit Build Deploy Operate 
+
+==========================================
+
+git secrets
+git secrets scan 
+
+====================================================================================
+
+sorce code== >> version control == >> Build system == >> Build tools ==>> unit testing == >> integration test == >>> Artifects == >> Artifect Repo 
+
+== >> Artifect Repo == > Deployments Server == >> Deployments tools == >> CI env == >>> Integration TEst = =>> E2E Test = >> PROD ENV
+
+====================================================================================
+
+
+Version Control System == 
+
+Branching statergy== Master is best 
+
+Git == >> 
+
+Webhooks === In git we need to add jenkins URL need to check how secret we can add
+Jenkins  === In jenkins we need to git URL and configure how we need == >>> Pull and PUSH active should be click 
+
+Jenkins == Build == Github hook trigger for GITSCM polling  
+
+Once added new data for commit into git === >> Jenkins Job will triggere and perform action as per Job we defind 
+
+====================================================================================
+
+
+CI System == >>> Jenkins 
+
+setup jenkins from docker images and configure , use any docker images or we can cretae with docker-compose up with docker-compose.file including
+
+3 images - jenkins , nexus, test
+
+
+====================================================================================
+
+Artifects
+
+Nexus
+jfrog
+apache archiva
+
+
+====================================================================================
+Testing 
+
+Unit testing // Integration Testing // end to end test UI // security testing 
+
+junit,xunit //  abao/RAML , serverspec // selenium // findbug
+
+====================================================================================
+
+Deploy 
+
+1. Blue green deployments  , Features flag, 
+2. Canary Deployments 
+
+
+Source pulls, CM system , Orch Push , Build , any more -- 
+
+Ansible == Deploy to Server 
+
+add plugin to jenkins, create deploy job and invoke to anisble playbook 
+
+====================================================================================

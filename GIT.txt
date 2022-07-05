@@ -1,0 +1,108 @@
+1.   git clone reponame
+2.   git remote -v 
+3.   edit files
+4.   git status
+5.   git add 
+6.   git commit
+7.   git push
+8.   git logs
+9.   git pull
+10.  gitk& 					-- history 
+11.  git show -s --pretty-raw starting-entry
+12.  git ls-tree starting-entry
+13.  git show starting-entry
+
+if you are in working dir  and need to revert 
+
+14.  git checkout -filename
+15.  git checkout .
+16.  git clean -xdf
+
+if you are in staging area  and need to revert
+
+17.  git gui& === To open GUI base 
+18.  git reset -- filename
+
+if you are in commited  and need to revert
+
+19.  git gui&
+20.  git reset HEAD~1
+
+GIt RESET 
+
+21.  git reset --soft HEAD~1   === File going to index
+22.  git reset --mixed HEAD~1  === File going to filesysytem 
+
+
+GIt REVERT
+
+23.  git revert SHA 
+24.  git push 
+
+.GIT IGNORE
+
+25.  .gitignore -- >>> Add file name which not need to add in staging or commit as of now
+
+
+GIT BRANCH AND GIT MERGE 
+
+26.  git checkout -b featurebranch
+27.  git add data
+28.  git commit -a -m "new data"
+29.  add some data
+30.  git add data
+31.  git commit -a -m "new adding data"
+32.  git logs
+33.  git checkout -b master 
+34.  git merge featurebranch 
+
+
+CONFLICT
+
+IN MASTER NOW
+
+35.  git add data
+36.  git commit -a -m "latest"
+37.  git checkout -b featurebranch
+38.  git add data
+39.  git commit -a -m "diff-latest"
+40.  git checkout -b master
+41.  git merge featurebranch
+CONFLICT error due to both branch changes on same file
+
+OPEN file and do change step by steps and then commit as it is 
+
+another option for same. 
+
+42.  git merge --abort
+43.  git checkout --xours --xtheirs
+44.  git diff
+45.  git revert SHA
+
+
+GIT REBASE
+
+Linear history you will get if you working with team 
+
+GIT CHERRYPICK
+
+GIT STASH 
+
+46.  git stash save "woriking on"
+47.  git stash list
+48.  git stasg apply stash-name
+49.  git stash remove 
+
+FLOW
+
+GITFLOW
+Integration Manger workflow
+Dictator and Lieutenants workflow
+forking workflow
+
+
+
+
+
+
+
